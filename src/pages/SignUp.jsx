@@ -1,7 +1,7 @@
 import React from 'react';
 
 import SignUpImg from "../assets/signup-pic.svg"
-import { Box, Heading, Img, Input, Text } from '@chakra-ui/react';
+import { Box, Button, Heading, Img, Input, Text } from '@chakra-ui/react';
 
 
 function SignUpPage() {
@@ -10,6 +10,7 @@ function SignUpPage() {
       w={"100vw"}
       h={"100vh"}
       display={"flex"}
+      gap={10}
       justifyContent={"center"}
       alignItems={"center"}
       flexWrap={"wrap"}
@@ -35,12 +36,15 @@ function SignUpPage() {
         display={"flex"}
         flexDirection={"column"}
         justifyContent={"center"}
-        alignItems={"stretch"}
+        alignItems={"start"}
         flex={1}
         minW={200}
         my={5}
         gap={15}
       >
+        <Box>
+
+        </Box>
 
         <Heading
           color={`var(--yellowColor)`}
@@ -64,14 +68,13 @@ function SignUpPage() {
             flexDirection={"column"}
             justifyContent={"center"}
             alignItems={"start"}
-            w={"100%"}
             gap={10}
           >
             <Text>
               Monitor Name:
             </Text>
             <Input
-              w={"100%"}
+              w={500}
               px={15}
               py={10}
               bg={"transparent"}
@@ -86,14 +89,38 @@ function SignUpPage() {
             flexDirection={"column"}
             justifyContent={"center"}
             alignItems={"start"}
-            w={"100%"}
+            gap={10}
+          >
+            <Text>
+              Monitor Class:
+            </Text>
+            <Input
+              w={500}
+              px={15}
+              py={10}
+              bg={"transparent"}
+              border={"2px solid white"}
+              borderRadius={20}
+              outline={"none"}
+              type={'number'}
+              max={10}
+              min={1}
+              defaultValue={10}
+              placeholder={"Enter Monitor Class Here..."}
+            />
+          </Box>
+          <Box
+            display={"flex"}
+            flexDirection={"column"}
+            justifyContent={"center"}
+            alignItems={"start"}
             gap={10}
           >
             <Text>
               Monitor Email:
             </Text>
             <Input
-              w={"100%"}
+              w={500}
               px={15}
               py={10}
               bg={"transparent"}
@@ -104,13 +131,50 @@ function SignUpPage() {
               placeholder={"Enter your monitor email..."}
             />
           </Box>
+          <Box
+            display={"flex"}
+            flexDirection={"column"}
+            justifyContent={"center"}
+            alignItems={"start"}
+            gap={10}
+          >
+            <Text>
+              Monitor Password:
+            </Text>
+            <Input
+              w={500}
+              px={15}
+              py={10}
+              bg={"transparent"}
+              border={"2px solid white"}
+              borderRadius={20}
+              outline={"none"}
+              type={'password'}
+              placeholder={"Enter your monitor password..."}
+            />
+          </Box>
+
+          <Button
+            ms={"auto"}
+            mt={10}
+            border={"none"}
+            borderRadius={20}
+            px={25}
+            py={10}
+            fontSize={20}
+            cursor={"pointer"}
+            _hover={{ bg: `#a30606` }}
+            bg={`var(--redColor)`}
+          >
+            Sign Up Monitor
+          </Button>
 
         </Box>
 
 
       </Box>
 
-    </Box>
+    </Box >
   )
 }
 
