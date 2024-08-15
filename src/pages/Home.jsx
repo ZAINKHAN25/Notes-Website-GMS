@@ -1,8 +1,11 @@
+import { Box } from "@chakra-ui/react";
+import StudentHome from "./StudentHome.jsx";
+
 function App() {
   return (
-    <div className="App">
-        Hey
-    </div>
+    <Box>
+        <StudentHome />
+    </Box>
   );
 }
 
