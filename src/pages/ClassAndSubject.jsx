@@ -32,7 +32,7 @@ function SelectSubject() {
         <ListItem>
           <Button
             as={Link}
-            to="/class/10"
+            to="/subject/biology10"
             bg={"var(--redColor)"}
             _hover={{ bg: `#a30606` }}
             borderRadius={20}
@@ -49,7 +49,7 @@ function SelectSubject() {
         <ListItem>
           <Button
             as={Link}
-            to="/class/9"
+            to="/subject/chemistry10"
             bg={"var(--redColor)"}
             _hover={{ bg: `#a30606` }}
             borderRadius={20}
@@ -66,7 +66,7 @@ function SelectSubject() {
         <ListItem>
           <Button
             as={Link}
-            to="/class/8"
+            to="/subject/english10"
             bg={"var(--redColor)"}
             _hover={{ bg: `#a30606` }}
             borderRadius={20}
@@ -83,7 +83,7 @@ function SelectSubject() {
         <ListItem>
           <Button
             as={Link}
-            to="/class/7"
+            to="/subject/Mutala10"
             bg={"var(--redColor)"}
             _hover={{ bg: `#a30606` }}
             borderRadius={20}
@@ -100,7 +100,7 @@ function SelectSubject() {
         <ListItem>
           <Button
             as={Link}
-            to="/class/6"
+            to="/subject/physics10"
             bg={"var(--redColor)"}
             _hover={{ bg: `#a30606` }}
             borderRadius={20}
@@ -117,7 +117,7 @@ function SelectSubject() {
         <ListItem>
           <Button
             as={Link}
-            to="/class/6"
+            to="/subject/math10"
             bg={"var(--redColor)"}
             _hover={{ bg: `#a30606` }}
             borderRadius={20}

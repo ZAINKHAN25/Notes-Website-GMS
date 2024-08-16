@@ -10,6 +10,7 @@ import LoginPage from "./pages/Login.jsx";
 import SignUpPage from "./pages/SignUp.jsx";
 import ClassPage from "./pages/ClassAndSubject.jsx";
 import SubjectPage from "./pages/SubjectPage.jsx";
+import ChaptorPage from "./pages/ChaptorPage.jsx";
 import NoteImgPage from "./pages/NoteImg.jsx";
 
 
@@ -21,6 +22,26 @@ const router = createBrowserRouter([
     path: "/",
     element: <HomePage />,
   },
+  // Class Select 
+  {
+    path: "/class/:id",
+    element: <ClassPage />,
+  },
+  // Subject Select 
+  {
+    path: "/subject/:id",
+    element: <SubjectPage />,
+  },
+  // Chaptor Select 
+  {
+    path: "/chaptor/:id",
+    element: <ChaptorPage />,
+  },
+  // Page Select 
+  {
+    path: "/note/:id",
+    element: <NoteImgPage />,
+  },
   {
     path: "/login",
     element: <LoginPage />,
@@ -28,18 +49,6 @@ const router = createBrowserRouter([
   {
     path: "/signup",
     element: <SignUpPage />,
-  },
-  {
-    path: "/class/:id",
-    element: <ClassPage />,
-  },
-  {
-    path: "/subject/:id",
-    element: <SubjectPage />,
-  },
-  {
-    path: "/note/:id",
-    element: <NoteImgPage />,
   },
 ]);
 root.render(
