@@ -8,7 +8,8 @@ import "./index.css";
 import HomePage from "./pages/Home.jsx";
 import LoginPage from "./pages/Login.jsx";
 import SignUpPage from "./pages/SignUp.jsx";
-import ClassAndSubjectPage from "./pages/ClassAndSubject.jsx";
+import ClassPage from "./pages/ClassAndSubject.jsx";
+import SubjectPage from "./pages/SubjectPage.jsx";
 import NoteImgPage from "./pages/NoteImg.jsx";
 
 
@@ -29,8 +30,12 @@ const router = createBrowserRouter([
     element: <SignUpPage />,
   },
   {
-    path: "/classAndSubject/:id",
-    element: <ClassAndSubjectPage />,
+    path: "/class/:id",
+    element: <ClassPage />,
+  },
+  {
+    path: "/subject/:id",
+    element: <SubjectPage />,
   },
   {
     path: "/note/:id",

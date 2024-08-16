@@ -18,20 +18,21 @@ function SelectClass() {
         fontSize={"45px"}
         mb={10}
       >
-        Select Your Class
+        Select Your Class:
       </Heading>
 
       <List
         spacing={5}
         w={"80%"}
         minW={500}
+        my={15}
         px={5}
       >
 
         <ListItem>
           <Button
             as={Link}
-            to="/classAndSubject/class10"
+            to="/class/10"
             bg={"var(--redColor)"}
             _hover={{ bg: `#a30606` }}
             borderRadius={20}
@@ -48,7 +49,7 @@ function SelectClass() {
         <ListItem>
           <Button
             as={Link}
-            to="/classAndSubject/class9"
+            to="/class/9"
             bg={"var(--redColor)"}
             _hover={{ bg: `#a30606` }}
             borderRadius={20}
@@ -65,7 +66,7 @@ function SelectClass() {
         <ListItem>
           <Button
             as={Link}
-            to="/classAndSubject/class8"
+            to="/class/8"
             bg={"var(--redColor)"}
             _hover={{ bg: `#a30606` }}
             borderRadius={20}
@@ -82,7 +83,7 @@ function SelectClass() {
         <ListItem>
           <Button
             as={Link}
-            to="/classAndSubject/class7"
+            to="/class/7"
             bg={"var(--redColor)"}
             _hover={{ bg: `#a30606` }}
             borderRadius={20}
@@ -99,7 +100,7 @@ function SelectClass() {
         <ListItem>
           <Button
             as={Link}
-            to="/classAndSubject/class6"
+            to="/class/6"
             bg={"var(--redColor)"}
             _hover={{ bg: `#a30606` }}
             borderRadius={20}
