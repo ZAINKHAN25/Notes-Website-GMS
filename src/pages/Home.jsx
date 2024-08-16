@@ -3,7 +3,11 @@ import StudentHome from "./StudentHome.jsx";
 
 function App() {
   return (
-    <Box>
+    <Box
+      w={"100vw"}
+      minH={"100vh"}
+      overflowX={"hidden"}
+    >
         <StudentHome />
     </Box>
   );

@@ -1,36 +1,121 @@
-import { Box, Heading, Text } from '@chakra-ui/react';
-import React from 'react'
+import React from 'react';
+import { Box, Button, Heading, List, ListItem } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
-function StudentHome() {
+function SelectClass() {
   return (
     <Box
       w={"100vw"}
-      minH={"100vh"}
+      h={"100vh"}
+      overflowX={"hidden"}
       display={"flex"}
-      justifyContent={"start"}
+      justifyContent={"center"}
       alignItems={"center"}
       flexDirection={"column"}
     >
       <Heading
         color={`var(--yellowColor)`}
         fontSize={"45px"}
+        mb={10}
       >
         Select Your Class
       </Heading>
 
-
-      <Box
-        w={"1110px"}
-        bg={"red"}
+      <List
+        spacing={5}
+        w={"80%"}
+        minW={500}
+        px={5}
       >
-        <Box>
-          <Text>Chaptor : 1</Text>
-        </Box>
-      </Box>
 
+        <ListItem>
+          <Button
+            as={Link}
+            to="/classAndSubject/class10"
+            bg={"var(--redColor)"}
+            _hover={{ bg: `#a30606` }}
+            borderRadius={20}
+            px={25}
+            py={10}
+            cursor={"pointer"}
+            textDecor={"none"}
+            w="100%"
+          >
+            Class 10
+          </Button>
+        </ListItem>
 
+        <ListItem>
+          <Button
+            as={Link}
+            to="/classAndSubject/class9"
+            bg={"var(--redColor)"}
+            _hover={{ bg: `#a30606` }}
+            borderRadius={20}
+            px={25}
+            py={10}
+            cursor={"pointer"}
+            textDecor={"none"}
+            w="100%"
+          >
+            Class 9
+          </Button>
+        </ListItem>
+
+        <ListItem>
+          <Button
+            as={Link}
+            to="/classAndSubject/class8"
+            bg={"var(--redColor)"}
+            _hover={{ bg: `#a30606` }}
+            borderRadius={20}
+            px={25}
+            py={10}
+            cursor={"pointer"}
+            textDecor={"none"}
+            w="100%"
+          >
+            Class 8
+          </Button>
+        </ListItem>
+
+        <ListItem>
+          <Button
+            as={Link}
+            to="/classAndSubject/class7"
+            bg={"var(--redColor)"}
+            _hover={{ bg: `#a30606` }}
+            borderRadius={20}
+            px={25}
+            py={10}
+            cursor={"pointer"}
+            textDecor={"none"}
+            w="100%"
+          >
+            Class 7
+          </Button>
+        </ListItem>
+
+        <ListItem>
+          <Button
+            as={Link}
+            to="/classAndSubject/class6"
+            bg={"var(--redColor)"}
+            _hover={{ bg: `#a30606` }}
+            borderRadius={20}
+            px={25}
+            py={10}
+            cursor={"pointer"}
+            textDecor={"none"}
+            w="100%"
+          >
+            Class 6
+          </Button>
+        </ListItem>
+
+      </List>
     </Box>
-  )
+  );
 }
 
-export default StudentHome
+export default SelectClass;
