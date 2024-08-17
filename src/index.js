@@ -29,12 +29,12 @@ const router = createBrowserRouter([
   },
   // Subject Select 
   {
-    path: "/subject/:id",
+    path: "/class/:class/:subject",
     element: <SubjectPage />,
   },
   // Chaptor Select 
   {
-    path: "/chaptor/:id",
+    path: "/class/:class/:subject/:chaptor",
     element: <ChaptorPage />,
   },
   // Page Select 

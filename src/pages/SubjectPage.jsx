@@ -32,7 +32,7 @@ function SelectNote() {
         <ListItem>
           <Button
             as={Link}
-            to="/chaptor/1"
+            to="/class/10/biology/1"
             bg={"var(--redColor)"}
             _hover={{ bg: `#a30606` }}
             borderRadius={20}
@@ -49,7 +49,7 @@ function SelectNote() {
         <ListItem>
           <Button
             as={Link}
-            to="/chaptor/2"
+            to="/class/10/biology/1"
             bg={"var(--redColor)"}
             _hover={{ bg: `#a30606` }}
             borderRadius={20}
@@ -66,7 +66,7 @@ function SelectNote() {
         <ListItem>
           <Button
             as={Link}
-            to="/chaptor/3"
+            to="/class/10/biology/1"
             bg={"var(--redColor)"}
             _hover={{ bg: `#a30606` }}
             borderRadius={20}
@@ -83,7 +83,7 @@ function SelectNote() {
         <ListItem>
           <Button
             as={Link}
-            to="/chaptor/4"
+            to="/class/10/biology/1"
             bg={"var(--redColor)"}
             _hover={{ bg: `#a30606` }}
             borderRadius={20}
@@ -100,7 +100,7 @@ function SelectNote() {
         <ListItem>
           <Button
             as={Link}
-            to="/chaptor/5"
+            to="/class/10/biology/1"
             bg={"var(--redColor)"}
             _hover={{ bg: `#a30606` }}
             borderRadius={20}
@@ -117,7 +117,7 @@ function SelectNote() {
         <ListItem>
           <Button
             as={Link}
-            to="/chaptor/6"
+            to="/class/10/biology/1"
             bg={"var(--redColor)"}
             _hover={{ bg: `#a30606` }}
             borderRadius={20}
