@@ -39,7 +39,7 @@ const router = createBrowserRouter([
   },
   // Page Select 
   {
-    path: "/note/:id",
+    path: "/class/:class/:subject/:chaptor/:page",
     element: <NoteImgPage />,
   },
   {
