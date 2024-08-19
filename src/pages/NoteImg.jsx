@@ -55,6 +55,7 @@ function NoteImg() {
           </Box>
           <Box
             display={"flex"}
+            gap={5}
             flex={1}
             flexDir={"column"}
             alignItems={"stretch"}
@@ -143,7 +144,9 @@ function NoteImg() {
 
             </Box>
 
-            <Box>
+            <Box
+              borderBottom={"1px solid white"}
+            >
               <Heading
                 color={`var(--yellowColor)`}
                 fontSize={20}
