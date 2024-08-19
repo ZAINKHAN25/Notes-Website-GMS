@@ -220,6 +220,10 @@ function NoteImg() {
             display={"flex"}
             justifyContent={"center"}
             alignItems={"start"}
+            transition={"all .3s"}
+            _hover={{
+              opacity: .8,
+            }}
           >
             <Img
               objectFit={"cover"}
