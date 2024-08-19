@@ -22,35 +22,42 @@ function NoteImg() {
       </Heading>
 
       <Box
-        border={"1px solid white"}
-        my={15}
-        display={"flex"}
-        justifyContent={"space-around"}
-        alignItems={"center"}
-        py={15}
-        px={25}
-        gap={15}
-        borderRadius={25}
+        w={"80vw"}
+        minW={500}
+        px={15}
       >
-        <Box>
-          <Img
-            src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVZy1C08T3Uy8UtsdqTTNw5orC7VXoDy4Q1Q&s'}
-            borderRadius={25}
-          />
-        </Box>
         <Box
+          w={"100%"}
+          border={"1px solid white"}
+          my={15}
           display={"flex"}
-          flexDir={"column"}
+          justifyContent={"space-around"}
           alignItems={"center"}
-          justifyContent={"center"}
+          py={15}
+          px={25}
+          gap={15}
+          borderRadius={15}
         >
+          <Box>
+            <Img
+              src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVZy1C08T3Uy8UtsdqTTNw5orC7VXoDy4Q1Q&s'}
+              borderRadius={15}
+            />
+          </Box>
           <Box
             display={"flex"}
-            justifyContent={"space-between"}
+            flexDir={"column"}
+            alignItems={"center"}
+            justifyContent={"center"}
           >
-            <Heading>Bioogy Chp:1, Page 2</Heading>
-            <Box>
-              <MdDownloadForOffline />
+            <Box
+              display={"flex"}
+              justifyContent={"space-between"}
+            >
+              <Heading>Bioogy Chp:1, Page 2</Heading>
+              <Box>
+                <MdDownloadForOffline />
+              </Box>
             </Box>
           </Box>
         </Box>
