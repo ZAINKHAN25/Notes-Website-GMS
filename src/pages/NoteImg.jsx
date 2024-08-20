@@ -47,6 +47,7 @@ function NoteImg() {
             justifyContent={"center"}
             alignItems={"start"}
           >
+            {/* Notes img */}
             <Img
               objectFit={"contain"}
               src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVZy1C08T3Uy8UtsdqTTNw5orC7VXoDy4Q1Q&s'}
