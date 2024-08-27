@@ -8,5 +8,3 @@
     <li>Integrate With Firebase.</li>
     <li>Dynamic the page routing</li>
 <ul>
-
-Checking Github Streak
